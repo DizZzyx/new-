@@ -12,7 +12,7 @@ const discord = require("discord.js");
 const client = new discord.Client({
   disableEveryone: false
 });
-const yts = require('yt-search')
+const yts = require('')
 
 client.queue = new Map();
 client.vote = new Map();
